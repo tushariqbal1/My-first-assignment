@@ -58,7 +58,7 @@ nav .menu a {
     color: rgba(255, 255, 255, 0.712);
 }
 
-.banner-btn .btn {
+.banner-btn .btn, .access .btn {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -196,4 +196,36 @@ nav .menu a {
     margin-bottom: 16px;
     color: #001931;
     font-weight: 500;
+}
+#early-access{
+    padding: 2px 120px 120px;
+    
+}
+#early-access .access{
+    background: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+}
+.access .btn{
+    margin: 0px auto;
+}
+.access .btn:hover{
+    background-color: #001931d3;
+    color: #ffffff;
+}
+.access .access-title{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.access .access-subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.access .ending-massage{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
 }

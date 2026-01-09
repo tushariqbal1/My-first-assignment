@@ -52,7 +52,8 @@ nav .menu a {
     color: #ffffff;
     cursor: pointer;
 }
-.btn-white:hover{
+
+.btn-white:hover {
     background-color: #0000003b;
     color: rgba(255, 255, 255, 0.712);
 }
@@ -107,4 +108,54 @@ nav .menu a {
     line-height: 30px;
     margin-bottom: 32px;
     color: #ffffff;
+}
+
+#note .note-heading {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 44px;
+}
+
+.note-heading h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-heading p {
+    font-size: 16px;
+    color: #627382;
+}
+
+#note .note-card-container {
+    display: flex;
+    gap: 24px;
+    margin: 0px 120px;
+    text-align: center;
+}
+
+#note .note-card-container .note-card {
+    padding: 24px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.137);
+}
+
+#note .note-card-container img {
+    background-color: #F95555;
+    border-radius: 100%;
+    padding: 10px 10px;
+    margin-bottom: 16px;
+
+}
+
+#note .note-card-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#note .note-card-container p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
 }

@@ -58,7 +58,8 @@ nav .menu a {
     color: rgba(255, 255, 255, 0.712);
 }
 
-.banner-btn .btn, .access .btn {
+.banner-btn .btn,
+.access .btn {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -159,36 +160,42 @@ nav .menu a {
     color: #627382;
     line-height: 24px;
 }
-#brain .brain-container{
+
+#brain .brain-container {
     display: flex;
     gap: 60px;
     justify-content: space-between;
     align-items: center;
     padding: 120px;
 }
-.brain-contant .massage{
+
+.brain-contant .massage {
     font-size: 16px;
     font-weight: 500;
     color: #469165;
     margin-bottom: 16px;
 }
-.brain-contant .brain-title{
+
+.brain-contant .brain-title {
     font-size: 40px;
     color: #001931;
     margin-bottom: 16px;
 }
-.brain-container .brain-description{
+
+.brain-container .brain-description {
     font-size: 16px;
     color: #627382;
     line-height: 24px;
     text-align: justify;
     margin-bottom: 40px;
 }
-.brain-contant .description{
+
+.brain-contant .description {
     list-style-type: none;
 
 }
-.brain-contant .description li{
+
+.brain-contant .description li {
     background: url("./assets/CheckCircle.png");
     background-repeat: no-repeat;
     padding-left: 24px;
@@ -197,36 +204,86 @@ nav .menu a {
     color: #001931;
     font-weight: 500;
 }
-#early-access{
+
+#early-access {
     padding: 2px 120px 120px;
-    
+
 }
-#early-access .access{
+
+#early-access .access {
     background: #F7F6F2;
     text-align: center;
     padding: 80px 40px;
     border-radius: 12px;
 }
-.access .btn{
+
+.access .btn {
     margin: 0px auto;
 }
-.access .btn:hover{
+
+.access .btn:hover {
     background-color: #001931d3;
     color: #ffffff;
 }
-.access .access-title{
+
+.access .access-title {
     font-size: 40px;
     color: #001931;
     margin-bottom: 16px;
 }
-.access .access-subtitle{
+
+.access .access-subtitle {
     font-size: 16px;
     line-height: 24px;
     color: #627382;
     margin-bottom: 24px;
 }
-.access .ending-massage{
+
+.access .ending-massage {
     font-size: 16px;
     color: #627382;
     margin-top: 16px;
+}
+
+#footer-container {
+    background-color: #001931;
+}
+
+#footer-container .footer-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px;
+    margin: 0px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer-contant .social p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-contant .social a {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 16px;
+}
+
+#footer-container hr {
+    margin: 0px 120px 0px;
+    border-color: #e5e7eb27;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #FAFAFA;
+    padding-top: 30px;
+    padding-bottom: 30px ;
 }

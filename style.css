@@ -205,6 +205,7 @@ nav .menu a {
     background: #F7F6F2;
     text-align: center;
     padding: 80px 40px;
+    border-radius: 12px;
 }
 .access .btn{
     margin: 0px auto;

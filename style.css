@@ -50,6 +50,11 @@ nav .menu a {
     margin-left: 10px;
     background: none;
     color: #ffffff;
+    cursor: pointer;
+}
+.btn-white:hover{
+    background-color: #0000003b;
+    color: rgba(255, 255, 255, 0.712);
 }
 
 .banner-btn .btn {

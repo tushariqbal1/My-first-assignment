@@ -73,7 +73,7 @@ nav .menu a {
 #banner {
     text-align: center;
     padding: 115px 120px 180px;
-    background: url("./assets/hero-bg.png");
+    background: url("./assets/hero-bg.png"), #00193180;
 }
 
 .banner-top {

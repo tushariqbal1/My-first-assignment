@@ -159,3 +159,41 @@ nav .menu a {
     color: #627382;
     line-height: 24px;
 }
+#brain .brain-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+}
+.brain-contant .massage{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.brain-contant .brain-title{
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-container .brain-description{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.brain-contant .description{
+    list-style-type: none;
+
+}
+.brain-contant .description li{
+    background: url("./assets/CheckCircle.png");
+    background-repeat: no-repeat;
+    padding-left: 24px;
+    background-position: left center;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: 500;
+}

@@ -88,6 +88,9 @@ nav .menu li a:hover{
     text-align: center;
     padding: 115px 120px 180px;
     background: url("./assets/hero-bg.png"), #00193180;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner-top {
